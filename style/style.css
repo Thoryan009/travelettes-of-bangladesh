@@ -1,0 +1,60 @@
+body{
+    font-family: "Mulish";
+    width: 90%;
+    margin: 0 auto;
+}
+/* banner part */
+
+.banner{
+    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    text-align: center;
+}
+.dark-shade{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.2));
+    background-size: cover;
+    padding: 210px 247px;
+}
+.banner-title{
+    font-size: 4em;
+    color: white;
+    font-weight: 800;
+}
+.banner-description{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+
+}
+.categories{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3));
+    padding: 20px;
+    width: 45rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    border-radius: 8px;
+    margin-top: 64px;
+    
+}
+.categories > input{
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    width: 124px;
+    font-size: 1rem;
+    display: block;
+    
+}
+.find_now
+{
+    background-color: rgb(255, 84, 0);
+ 
+}
+
+.find_now::placeholder{
+    color: white;
+}
+
