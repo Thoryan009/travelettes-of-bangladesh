@@ -1,5 +1,5 @@
 body{
-    font-family: "Mulish";
+    font-family: "Mulish" ;
     width: 90%;
     margin: 0 auto;
 }
@@ -38,15 +38,16 @@ body{
     gap: 20px;
     border-radius: 8px;
     margin-top: 64px;
+    width: 40rem;
     
 }
 .categories > input{
     padding: 10px;
     border: none;
     border-radius: 8px;
-    width: 124px;
+    width: 8em;
     font-size: 1rem;
-    display: block;
+    /* display: block; */
     
 }
 .btn-primary
