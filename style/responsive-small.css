@@ -67,8 +67,14 @@
 .newsletter-container{
     flex-direction: column;
 }
+.newsletter-img img{
+    width: 100%;
+}
 
-
+/* footer */
+.footer{
+    padding: 40px;
+}
 
 
 
