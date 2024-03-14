@@ -1,35 +1,75 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
-    .banner-title{
+    .banner-title {
         font-size: 2em;
     }
-    .banner-description{
+
+    .banner-description {
         font-size: 1rem;
     }
-    .dark-shade{
+
+    .dark-shade {
         padding: 32px 15px;
         margin: 0 auto;
     }
 
-    .categories > input{
+    .categories>input {
         width: auto;
-     
+
     }
-    .categories{
+
+    .categories {
         flex-direction: column;
         width: auto;
-       
+
     }
-    .btn-primary{
+
+    .btn-primary {
         width: auto;
-        
+
     }
 
 
     /* our popular tour section */
-.popular-tour{
+    .popular-tour {
+        flex-direction: column;
+        margin: 50px 0;
+        gap: 50px;
+    }
+
+    /* why choose us */
+    .section-content {
+        width: auto;
+    }
+
+    .services {
+        display: block;
+    }
+
+    .service-1,
+    .service-2,
+    .service-3 {
+        width: auto;
+    }
+
+    /* A Simple Perfect Place To Get Lost section  */
+    .perfect-place-container {
+        flex-direction: column;
+        margin: 50px 0;
+        gap: 50px;
+    }
+
+    .place-img>img {
+        width: 98%;
+    }
+
+/* New Sletter section */
+.newsletter-container{
     flex-direction: column;
-    margin: 50px 0;
-    gap: 50px;
 }
+
+
+
+
+
 }

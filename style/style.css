@@ -1,37 +1,42 @@
-body{
-    font-family: "Mulish" ;
+body {
+    font-family: "Mulish";
     width: 90%;
     margin: 0 auto;
 }
+
 /* banner part */
 
-.banner{
+.banner {
     background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
     background-size: cover;
     background-position: center;
     text-align: center;
 }
-.dark-shade{
+
+.dark-shade {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.2));
+            rgba(0, 0, 0, 0.2));
     background-size: cover;
     padding: 210px 287px;
     border-radius: 10px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 4em;
     color: white;
     font-weight: 800;
 }
-.banner-description{
+
+.banner-description {
     font-size: 20px;
     color: white;
     font-weight: 400;
 
 }
-.categories{
+
+.categories {
     background-image: linear-gradient(rgba(255, 255, 255, 0.3),
-    rgba(255, 255, 255, 0.3));
+            rgba(255, 255, 255, 0.3));
     padding: 20px;
     margin: 0 auto;
     display: flex;
@@ -39,46 +44,145 @@ body{
     border-radius: 8px;
     margin-top: 64px;
     width: 40rem;
-    
+
 }
-.categories > input{
+
+.categories>input {
     padding: 10px;
     border: none;
     border-radius: 8px;
     width: 8em;
     font-size: 1rem;
     /* display: block; */
-    
+
 }
-.btn-primary
-{
+
+.btn-primary {
     background-color: rgb(255, 84, 0);
     color: white;
     padding: 20px;
     border: none;
-    width:  154px;
+    width: 154px;
     border-radius: 8px;
     font-size: 1rem;
 }
 
 /* our popular tour section */
-.popular-tour{
+.popular-tour {
     display: flex;
     margin: 100px 0;
     gap: 50px;
 }
-.tour-content{
-  flex: 1;
+
+.tour-content {
+    flex: 1;
 }
-.section-title{
+
+.section-title {
     font-size: 40px;
     font-weight: 800;
+    margin: 0;
 }
-.section-description,  ul > li{
+
+.section-description,
+ul>li {
     font-size: 20px;
-    color: rgba(19, 19, 24, 0.7);;
+    color: rgba(19, 19, 24, 0.7);
+    ;
     font-weight: 400;
 }
-ul > li{
+
+ul>li {
     margin: 20px;
+}
+
+/* Why choose us */
+
+.why-choose-us img {
+    width: 40px;
+}
+.section-content{
+ margin: 0 auto;
+    width: 663px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    gap: 100px;
+}
+.service-1, .service-2, .service-3{
+    width: 573px;
+    padding: 32px;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+.service-1 {
+    background-color: rgba(251, 181, 99, 0.1);
+   
+}
+.service-2 {
+    background-color:rgba(41, 206, 246, 0.1);
+  
+}
+.service-3{
+    background-color: rgba(251, 181, 99, 0.1);
+    padding: 32px;
+    width: 573px;
+    border-radius: 20px;
+
+}
+.service-title{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+/* A Simple Perfect Place To Get Lost section  */
+.perfect-place-container{
+    display: flex;
+    gap:  50px;
+    margin: 100px auto;
+}
+.place-content{
+    flex: 1;
+}
+
+/* New Sletter section */
+.newsletter-container{
+    display: flex;
+    gap: 80px;
+}
+.newsletter-content{
+    padding: 40px;
+    border: 2px solid orangered;
+    border-radius: 15px;
+}
+
+.login input{
+    display: block;
+    width: 393px;
+    padding: 15px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.newsletter-img{
+    position: relative;
+}
+
+.discount{
+    padding: 20px;
+    background-color: orangered;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+    position: absolute;
+    right:  10px;
+    bottom: 35px;
+    transform: rotate(-20deg);
+
+}
+.discount p, .discount h3{
+    margin: 0;
+    padding: 0;
 }
