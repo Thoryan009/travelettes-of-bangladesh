@@ -60,3 +60,25 @@ body{
     border-radius: 8px;
     font-size: 1rem;
 }
+
+/* our popular tour section */
+.popular-tour{
+    display: flex;
+    margin: 100px 0;
+    gap: 50px;
+}
+.tour-content{
+  flex: 1;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-description,  ul > li{
+    font-size: 20px;
+    color: rgba(19, 19, 24, 0.7);;
+    font-weight: 400;
+}
+ul > li{
+    margin: 20px;
+}
