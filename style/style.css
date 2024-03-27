@@ -23,7 +23,7 @@ header, main {
 /* banner part */
 
 .banner {
-    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-size: cover;
     background-position: center;
     text-align: center;
