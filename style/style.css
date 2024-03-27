@@ -10,10 +10,10 @@ header, main {
     justify-content: space-between;
     align-items: center;
 }
-.menues ul {
+.menues ul{
     display: flex;
 }
-.menues ul li {
+.menues ul li{
     list-style: none;
 }
 .menues ul li a{
@@ -117,9 +117,6 @@ ul>li {
 .choose-your-destination{
     text-align: center;
 
-}
-.destinations{
-  
 }
 .row{
     display: flex;

@@ -38,8 +38,7 @@
         width: auto;
 
     }
-
-
+    
     /* our popular tour section */
     .popular-tour {
         flex-direction: column;
@@ -97,7 +96,5 @@
 .footer{
     padding: 40px;
 }
-
-
 
 }
