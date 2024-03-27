@@ -4,6 +4,22 @@ header, main {
     margin: 0 auto;
 }
 
+/* nav part  */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menues ul {
+    display: flex;
+}
+.menues ul li {
+    list-style: none;
+}
+.menues ul li a{
+    text-decoration: none;
+}
+
 /* banner part */
 
 .banner {

@@ -1,5 +1,15 @@
 @media screen and (max-width: 600px) {
 
+
+    /* nav  */
+    .nav{
+        flex-direction: column;
+    }
+    .menues ul{
+   
+        padding: 0;
+    }
+    /* banner  */
     .banner-title {
         font-size: 2em;
     }
@@ -35,6 +45,9 @@
         flex-direction: column;
         margin: 50px 0;
         gap: 50px;
+    }
+    .tour-img img {
+        width: 520px;
     }
     /* choose your destination  */
     .row{
