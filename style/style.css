@@ -53,7 +53,7 @@ header, main {
     border-radius: 8px;
     width: 8em;
     font-size: 1rem;
-    /* display: block; */
+   
 
 }
 
@@ -96,8 +96,34 @@ ul>li {
     margin: 20px;
 }
 
-/* Why choose us */
 
+/* choose your deestination */
+.choose-your-destination{
+    text-align: center;
+
+}
+.destinations{
+  
+}
+.row{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.place-name{
+color: white;
+position: relative;
+bottom: 150px;
+margin: auto 0;
+
+}
+
+
+/* Why choose us */
+.why-choose-us{
+    margin-top: 100px;
+}
 .why-choose-us img {
     width: 40px;
 }
