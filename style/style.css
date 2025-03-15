@@ -12,9 +12,12 @@ header, main {
 }
 .menues ul{
     display: flex;
+    gap: 80px;
+    
 }
 .menues ul li{
     list-style: none;
+    /* padding: 10px; */
 }
 .menues ul li a{
     text-decoration: none;
@@ -100,20 +103,20 @@ header, main {
     margin: 0;
 }
 
-.section-description,
-ul>li {
+.section-description, ul > li {
     font-size: 20px;
     color: rgba(19, 19, 24, 0.7);
     ;
     font-weight: 400;
 }
 
-ul>li {
+.tour-content > ul >li {
     margin: 20px;
 }
 
 
 /* choose your deestination */
+
 .choose-your-destination{
     text-align: center;
 

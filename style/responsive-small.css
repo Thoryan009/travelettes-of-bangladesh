@@ -6,8 +6,10 @@
         flex-direction: column;
     }
     .menues ul{
-   
+        flex-direction: column;
+        gap: 20px;
         padding: 0;
+        margin: 30px;
     }
     /* banner  */
     .banner-title {
@@ -46,7 +48,7 @@
         gap: 50px;
     }
     .tour-img img {
-        width: 520px;
+        width: 100%;
     }
     /* choose your destination  */
     .row{
@@ -54,8 +56,8 @@
         gap: 20px;
     }
     .destination > img{
-        width: 500px;
-        height: 250px;
+       width: 100%;
+       height: 260px;
     }
 
     /* why choose us */
@@ -85,6 +87,13 @@
     }
 
 /* New Sletter section */
+.login input{
+    width: 90%;
+    /* padding: 0; */
+}
+.newsletter-content{
+    padding: 10px;
+}
 .newsletter-container{
     flex-direction: column;
 }
